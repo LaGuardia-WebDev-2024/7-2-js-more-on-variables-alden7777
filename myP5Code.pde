@@ -12,7 +12,7 @@ void draw(){
   background(255,255,255,200);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Unit Goes Here
-  
+   
   noStroke();
   fill(30, 204, 91); // a nice froggy green!
 
@@ -22,12 +22,19 @@ void draw(){
 
   fill(255, 255, 255); // for the whites of the eyes!
   ellipse(x - 50, y - 50, 30, 30); // left eyeball
-  ellipse(x + 50, y - 50, 30, 30); // right eyeball
-  
+  ellipse(x + 50, y - 50, 30, 30); // right eyeball 
+fill (0,0,0)
+ ellipse(x - 50, y - 50, 20, 20);
+ ellipse(x + 50, y - 50, 20, 20);
+
+ ellipse (x,y+10, 150,30)
+ x = mouseX;
+ y = mouseY;
 
 }
-
-
+var randRed = random(0,255);
+var randGreen = random(0,255);
+var randBlue = random(0,255);
 
 //🟡Extra FUN Features Ms. Hall Added
 //Proceed with Caution (and Curiosity!)
